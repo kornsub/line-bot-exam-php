@@ -3,9 +3,8 @@
 require "vendor/autoload.php";
 print_r($_POST);
 $data = json_decode($_POST, true);
-
-echo $_POST[0];
-print_r($data);
+echo "<br>";
+echo $_POST[0]['to'];
 
 $access_token = 'ip/pRN4xHdsvZP7E+9BFQNrgNz1cBbwU+92eHsKjWKauP14oprQF9K57kxbaMTxLVTvJtAWrYZNVLe1V1ikZ+9NRWXc9u6HBgf/RBrmmXkq3cNbOrtRILf9ogEUQ2yzjDyoFJTORu5g4O0g15jP6rAdB04t89/1O/w1cDnyilFU=';
 
