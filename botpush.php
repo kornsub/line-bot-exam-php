@@ -2,10 +2,10 @@
 
 require "vendor/autoload.php";
 
-vardump($_POST);
+var_dump($_POST);
 $data = json_decode($_POST,true);
 
-vardump($data);
+var_dump($data);
 
 $access_token = 'ip/pRN4xHdsvZP7E+9BFQNrgNz1cBbwU+92eHsKjWKauP14oprQF9K57kxbaMTxLVTvJtAWrYZNVLe1V1ikZ+9NRWXc9u6HBgf/RBrmmXkq3cNbOrtRILf9ogEUQ2yzjDyoFJTORu5g4O0g15jP6rAdB04t89/1O/w1cDnyilFU=';
 
